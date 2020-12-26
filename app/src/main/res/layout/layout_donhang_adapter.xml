@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="#0324654"
+            android:textColor="@color/orange"
+            android:textSize="16sp"/>
+
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvPrice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="23500 đ"
+            android:gravity="right"
+            android:textSize="16sp"
+            android:layout_gravity="right"
+            android:textColor="@color/orange" />
+    </LinearLayout>
+    <com.leekien.shipfoodfinal.customView.RobBoldText
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="djajsajsjajasjsajasj"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="djajsajsjajasjsajasj"
+            />
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvShow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xem chi tiết đơn hàng"
+            android:textColor="@color/orange"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvNumberPhone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="#0324654"
+           />
+
+        <com.leekien.shipfoodfinal.customView.RobBoldText
+            android:id="@+id/tvDistance"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="23500 đ"
+            android:gravity="right"
+            android:textColor="@color/orange"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+    <View
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#C4C4C4"/>
+
+</LinearLayout>

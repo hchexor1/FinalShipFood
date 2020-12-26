@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028918826655",
+    "project_id": "datn-hoan-2020",
+    "storage_bucket": "datn-hoan-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028918826655:android:f1ee727955369c657f34aa",
+        "android_client_info": {
+          "package_name": "com.leekien.shipfoodfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028918826655-7lc8bl9ibqkd1c8bes4m78d4ccitlf31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmXHlvu9_cppNW4h1J2xlSQQit4WVrWgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028918826655-7lc8bl9ibqkd1c8bes4m78d4ccitlf31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
